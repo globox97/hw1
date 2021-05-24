@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    background-image: url('header-cover.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    color: whitesmoke;
+} 
+
+body, form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+form div {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.4em;
+    width: 300px;
+}
+
+#error {
+    color: red;
+    font-size: 1.4em;
+    font-weight: bold;
+}
+span, a {
+    font-size: 1.2em;
+    font-weight: bolder;
+}
+
+a {
+    color: rgb(158, 158, 255);
+}
+
+.hidden {
+    display: none;
+}
